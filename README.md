@@ -2,7 +2,7 @@
 
 Marketing site for **Selah Watch Co.**, a family business run by three brothers (Kevin, Ricky, and Kris) who buy and resell watches — vintage to modern, entry level to luxury, with Japanese and Swiss movements. Sales currently happen primarily through live streams on Whatnot.
 
-**Live site:** [www.selahwatches.com](https://www.selahwatches.com)
+**Live site:** [scorchedskyes.github.io/Selah-Watch-Co](https://scorchedskyes.github.io/Selah-Watch-Co/)
 
 *"Selah — to pause and reflect."*
 
@@ -29,9 +29,8 @@ Single-page static site with these sections:
 │   ├── banner.png      # Brand banner (source image, star removed)
 │   ├── logo-clear.png  # Banner with background removed (used in hero)
 │   └── bg-texture.jpg  # Page background texture derived from banner
-├── scripts/
-│   └── remove-bg.js    # Regenerates logo-clear.png from banner.png
-└── CNAME               # Custom domain for GitHub Pages
+└── scripts/
+    └── remove-bg.js    # Regenerates logo-clear.png from banner.png
 ```
 
 ## Design Theme
@@ -75,7 +74,7 @@ This removes the navy background, preserves the watch-face emblem intact (includ
 
 ## Deployment
 
-Hosted on **GitHub Pages** with the custom domain in `CNAME`. Deploy by pushing to `main`:
+Hosted on **GitHub Pages**. Deploy by pushing to `main`:
 
 ```bash
 git add .
